@@ -1,0 +1,29 @@
+{
+  "name": "markdown-html-converter",
+  "version": "1.0.0",
+  "description": "# Implement a Markdown => HTML converter",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "mocha -r ts-node/register tests/**/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varunsikka/markdown-html-converter.git"
+  },
+  "author": "Varun Sikka",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/varunsikka/markdown-html-converter/issues"
+  },
+  "homepage": "https://github.com/varunsikka/markdown-html-converter#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/mocha": "^8.0.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3",
+    "ts-node": "^9.0.0"
+  },
+  "dependencies": {
+    "typescript": "^4.0.3"
+  }
+}
