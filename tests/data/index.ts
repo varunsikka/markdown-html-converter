@@ -51,7 +51,7 @@ This is a paragraph [with an inline link](http://google.com). Neat, eh?
 ## This is a header [with a link](http://yahoo.com)`;
 
 export const output3 = `<h1>Header one</h1>
-<p>Hello there
+<p>Hello there.
 What's going on?</p>
 
 <p>How are you?
