@@ -4,7 +4,7 @@
   "description": "# Implement a Markdown => HTML converter",
   "main": "src/index.ts",
   "scripts": {
-    "test": "mocha -r ts-node/register tests/**/*.spec.ts"
+    "test": "nyc --reporter=html mocha -r ts-node/register --recursive \"tests/**/*.spec.ts\""
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
     "@types/mocha": "^8.0.3",
     "chai": "^4.2.0",
     "mocha": "^8.1.3",
+    "nyc": "^15.1.0",
     "ts-node": "^9.0.0"
   },
   "dependencies": {
