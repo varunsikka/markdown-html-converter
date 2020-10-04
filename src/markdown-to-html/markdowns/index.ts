@@ -47,10 +47,6 @@ export function handleUnformattedText(input: string): string {
   return input.replace(regex, '<p>$1</p>');
 }
 
-export function handleBlankLine(input: string): string {
-  return input;
-}
-
 /**
  * Scoped Markdowns
  * Block scope markdowns like heading, subheading etc.
