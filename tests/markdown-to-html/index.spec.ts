@@ -1,4 +1,4 @@
-import { markdownToHtmlConverter } from '../../src/index';
+import { markdownToHtmlConverter } from '../../src/markdown-to-html/index';
 import { expect } from 'chai';
 import { input1, output1, input2, output2, input3, output3 } from '../data';
 

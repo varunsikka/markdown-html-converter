@@ -29,3 +29,11 @@ ts-node src/index.ts < exmaples/example1.md
 ```sh
 ts-node src/index.ts < exmaples/example2.md
 ```
+
+## Running the tests
+
+```sh
+npm run test
+```
+
+To check code coverage, open the html file `coverage/index.html` after running the tests
