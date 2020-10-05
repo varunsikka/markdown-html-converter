@@ -15,8 +15,6 @@ export function handleLinks(input: string): string {
 
 export function handleHeading(input: string): string {
   const regex = /^#\s(.*)/;
-  let extraLines = "";
-  let extraLinesMatches = null;
   if (regex.test(input) && input.match(/\n(.*)/s)) {
     input = input.replace(/\n(.*)/s, `\n<p>$1</p>`);
   }
